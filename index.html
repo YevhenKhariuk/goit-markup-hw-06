@@ -439,10 +439,50 @@
         </button>
         <p class="modal-tittle">Оставьте свои данные, мы вам перезвоним</p>
         <form class="modal-form">
-          <input type="text" class="modal-input" />
-          <input type="text" class="modal-input" />
-          <input type="text" class="modal-input" />
-          <input type="text" class="modal-input" />
+          <div class="modal-field">
+            <label class="modal-form" for="user-name">Имя</label>
+            <input
+              type="text"
+              class="modal-input"
+              name="user-name"
+              placeholder="Имя"
+              required
+              id="user-name"
+            />
+          </div>
+          <div class="modal-field">
+            <label class="modal-form" for="user-tel">Телефон</label>
+            <input
+              type="tel"
+              class="modal-input"
+              name="user-tel"
+              placeholder="Телефон"
+              required
+              value="+380"
+              id="user-tel"
+            />
+          </div>
+          <div class="modal-field">
+            <label class="modal-form" for="user-email">Почта</label>
+            <input
+              type="email"
+              class="modal-input"
+              name="user-email"
+              placeholder="Почта"
+              required
+              id="user-email"
+            />
+          </div>
+          <div class="modal-field">
+            <label class="modal-form" for="user-text">Комментарий</label>
+            <textarea
+              name="user-text"
+              id="user-text"
+              placeholder="Комментарий"
+              class="modal-text"
+            ></textarea>
+          </div>
+          <button type="submit">Отправить</button>
         </form>
       </div>
     </div>
