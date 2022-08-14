@@ -428,6 +428,30 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-input-container">
+          <div class="footer-input-field">
+            <p class="footer-input-text">Подпишитесь на рассылку</p>
+            <label class="footer-input-form" for="input-user-email"></label>
+            <div class="footer-input-wrap">
+              <input
+                type="tel"
+                class="footer-input"
+                name="user-tel"
+                placeholder="E-mail"
+                required
+                value=""
+                id="input-user-email"
+              />
+              <button class="footer-input-btn">
+                Подписаться
+                <svg class="footer-input-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -510,10 +534,16 @@
                 ><svg class="check-icon" width="16" height="15">
                   <use href="./img/icons.svg#icon-check"></use></svg
               ></span>
-              Соглашаюсь с рассылкой и принимаю Условия договора</label
+              <p class="check-text-termes">
+                Соглашаюсь с рассылкой и принимаю&nbsp;<a
+                  href="#"
+                  class="check-link"
+                  >Условия договора</a
+                >
+              </p></label
             >
           </div>
-          <button type="submit">Отправить</button>
+          <button type="submit" class="check-submit">Отправить</button>
         </form>
       </div>
     </div>
