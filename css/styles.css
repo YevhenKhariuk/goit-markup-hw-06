@@ -819,7 +819,7 @@ img {
 }
 
 .modal-text:hover,
-.modal-text:hover {
+.modal-text:focus {
   border-color: var(--soc-icon-bg-focushover);
 }
 
