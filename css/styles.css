@@ -766,7 +766,7 @@ img {
   transition: border-color 250ms;
 }
 
-.modal-input:hover,
+/* .modal-input:hover, */
 .modal-input:focus {
   border-color: var(--soc-icon-bg-focushover);
 }
@@ -779,7 +779,7 @@ img {
   transition: fill 250ms;
 }
 
-.modal-input:hover + .input-icon,
+/* .modal-input:hover + .input-icon, */
 .modal-input:focus + .input-icon {
   fill: var(--soc-icon-bg-focushover);
 }
@@ -818,7 +818,7 @@ img {
   transition: border-color 250ms;
 }
 
-.modal-text:hover,
+/* .modal-text:hover, */
 .modal-text:focus {
   border-color: var(--soc-icon-bg-focushover);
 }
@@ -860,9 +860,9 @@ img {
   fill: var(--soc-icon-color-focushover);
 }
 
-.modal-check:focus + .check-text span {
+/* .modal-check:focus + .check-text span {
   border-color: var(--soc-icon-bg-focushover);
-}
+} */
 
 .check-text-termes {
   font-size: 14px;
