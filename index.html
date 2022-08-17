@@ -430,9 +430,12 @@
         </div>
 
         <div class="footer-input-container">
-          <div class="footer-input-field">
-            <p class="footer-input-text">Подпишитесь на рассылку</p>
-            <label class="footer-input-form" for="input-user-email"></label>
+          <p class="footer-input-text">Подпишитесь на рассылку</p>
+          <form action="#" class="footer-input-form">
+            <!-- <label
+              class="footer-input-field is-hidden"
+              for="input-user-email"
+            ></label> -->
             <div class="footer-input-wrap">
               <input
                 type="tel"
@@ -450,7 +453,7 @@
                 </svg>
               </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -464,7 +467,7 @@
         <p class="modal-tittle">Оставьте свои данные, мы вам перезвоним</p>
         <form class="modal-form">
           <div class="modal-field">
-            <label class="modal-form" for="user-name">Имя</label>
+            <label class="modal-label" for="user-name">Имя</label>
             <div class="input-wrap">
               <input
                 type="text"
@@ -480,7 +483,7 @@
             </div>
           </div>
           <div class="modal-field">
-            <label class="modal-form" for="user-tel">Телефон</label>
+            <label class="modal-label" for="user-tel">Телефон</label>
             <div class="input-wrap">
               <input
                 type="tel"
@@ -497,7 +500,7 @@
             </div>
           </div>
           <div class="modal-field">
-            <label class="modal-form" for="user-email">Почта</label>
+            <label class="modal-label" for="user-email">Почта</label>
             <div class="input-wrap">
               <input
                 type="email"
@@ -512,8 +515,8 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
-            <label class="modal-form" for="user-text">Комментарий</label>
+          <div class="modal-field modal-field-comm">
+            <label class="modal-label" for="user-text">Комментарий</label>
             <textarea
               name="user-text"
               id="user-text"
