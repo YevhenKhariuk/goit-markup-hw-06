@@ -818,7 +818,11 @@ img {
   display: block;
 }
 
-.modal-field-comm {
+.modal-field {
+  margin-bottom: 10px;
+}
+
+.modal-field-comments {
   margin-bottom: 20px;
 }
 
@@ -841,7 +845,6 @@ img {
 
 .input-wrap {
   position: relative;
-  margin-bottom: 10px;
 }
 
 .check-text {
